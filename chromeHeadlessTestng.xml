@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chromeHeadless" />
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Testcases.AddCucumber" />
+			<class name="Testcases.CartTest" />
+			<class name="Testcases.CheckOutTest" />
+			<class name="Testcases.DropDownTest" />
+			<class name="Testcases.FlightBookingTest" />
+			<class name="Testcases.MoveToSecondTest" />
+			<class name="Testcases.SearchTest" />
+			<class name="Testcases.PlaceOrderTest" />
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

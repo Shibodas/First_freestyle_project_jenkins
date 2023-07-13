@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcases.MoveToSecondTest">
+        <methods>
+          <include name="SecondPage"/>
+          <include name="browserclose"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.MoveToSecondTest -->
+      <class name="Testcases.CartTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="Cart"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.CartTest -->
+      <class name="Testcases.FlightBookingTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Flight"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.FlightBookingTest -->
+      <class name="Testcases.SearchTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="SearchTest"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.SearchTest -->
+      <class name="Testcases.CheckOutTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="CheckOut"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.CheckOutTest -->
+      <class name="Testcases.PlaceOrderTest">
+        <methods>
+          <include name="order"/>
+          <include name="browserclose"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.PlaceOrderTest -->
+      <class name="Testcases.DropDownTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="enterurl"/>
+          <include name="Select"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.DropDownTest -->
+      <class name="Testcases.AddCucumber">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Cucumber"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.AddCucumber -->
+      <class name="Testcases.TopDealsTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="enterurl"/>
+          <include name="initializeWebdriver"/>
+          <include name="topDealsTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Testcases.TopDealsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
